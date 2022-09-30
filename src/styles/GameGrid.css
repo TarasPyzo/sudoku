@@ -1,0 +1,28 @@
+.gamegrid-container {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+}
+
+.gamegrid-item {
+  font-size: 20px;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.gamegrid-item:nth-child(3),
+.gamegrid-item:nth-child(6) {
+  margin-right: 5px;
+}
+
+.gamegrid-item:nth-child(19),
+.gamegrid-item:nth-child(46) {
+  margin-bottom: 5px;
+}
+
+.gamegrid-item_disabled {
+  color: grey;
+  background: lightgray;
+}
+
